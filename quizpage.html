@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MATHS CHAMPIONS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <body style="color: aqua; display:block;" class="bodyman">
+
+        <h1>
+            <marquee id="mark">A CHALLANGE TO THE CHAMPIONS OF THE GREAT SUBJECT OF MATHS</marquee>
+        </h1>
+        <br>
+        <h1 style="font-family: 'Nerko One', cursive;" id="p1name"></h1>
+        <h1 style="font-family: 'Nerko One', cursive;" id="p2name"></h1>
+        <center>
+            <br>
+            <br>
+            <div class="container">
+                <h1 id="question_turn" style='color:lime; background-color:blueviolet; font-size:50px;' class="q_and_a"></h1>
+                <h1 id="answer_turn" style='color:lime; background-color:blueviolet; font-size:50px;' class="q_and_a"></h1>
+                <div id="output_div">
+                    <h1><kbd style='color:lime; background-color:blueviolet; font-size:50px;' id='q' class="hideornot">QUESTION: </kbd></h1>
+                        <h1><kbd style='color:lime; background-color:blueviolet; font-size:50px;' id="ta" class="hideornot" >ANSWER: </kbd>
+                    </h1>
+                    <input type='number' class='form-control u_inputs hideornot' id='answer_box'><br>
+                    <button id='check' class='btn-primary play hideornot' onclick='check()'>CHECK</button>
+                    <br>
+
+                </div>
+                <br>
+                <br>
+                <h1> <label id="instruction"><kbd style="color:yellow" id="n1a">***ENTER NUMBER 1 LESSER THAN 1000</kbd></label></h1>
+                <br>
+                <input type="number" class="form-control u_inputs" id="num1">
+                <h1> <label id="instruction"><kbd style="color:yellow" id="n2a">***ENTER NUMBER 2 LESSER THAN 1000</kbd></label></h1>
+                 <br>
+                 <input type="number" class="form-control u_inputs" id="num2">
+                <br>
+                <center>
+                    <br> <button id="send" class="btn-primary play" onclick="send()">SEND</button>
+                </center>
+                    <br>
+
+            </div>
+        </center>
+        <script src="./quizpage.js"></script>
+    </body>
+
+</html>

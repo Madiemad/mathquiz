@@ -1,0 +1,60 @@
+.bodyman {
+    background-image: url("./bg_login.jpg");
+
+}
+
+.u1_login,
+.u2_login {
+    background: linear-gradient(to left, black, grey);
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    border: 5px blue dotted;
+
+}
+
+.u_inputs {
+    color: lime;
+    font-size: 30px;
+    background-color: blue;
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+}
+
+.play {
+    width: 175px;
+    height:125px;
+    border-radius:50%;
+    font-size:40px;
+    background-color:mediumspringgreen;
+    color:blueviolet;
+
+}
+
+.score {
+    color: turquoise;
+    font-family: 'Nerko One', cursive;
+}
+
+.q_and_a {
+    color: lime;
+    font-family: 'Nerko One', cursive;
+}
+
+#output_div {
+    background:linear-gradient(to left, black,grey);
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    border-left: 10px ridge crimson;
+    border-bottom: 10px ridge crimson;
+    border-right: 10px ridge crimson;
+    padding: 10px;
+    float: none;
+    text-align: center;
+}
+#mark{
+    font-family: 'Major Mono Display', monospace;
+}
+.hideornot{
+    display:none;
+}
